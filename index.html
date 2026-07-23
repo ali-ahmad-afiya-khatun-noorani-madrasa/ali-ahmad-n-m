@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>অ্যাপ ডাউনলোড করুন - মাদ্রাসা ম্যানেজমেন্ট সিস্টেম</title>
+    <!-- ফেভিকন আইকন -->
+    <link rel="icon" type="image/png" href="https://lh3.googleusercontent.com/d/1B-tFRZng9hiqmoHVOnioQ_EdWt1vJ6h9=w1000" />
+    <link href="https://fonts.googleapis.com/css2?family=SolaimanLipi&display=swap" rel="stylesheet" />
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'SolaimanLipi', sans-serif !important;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f8fafc;
+            color: #0f172a;
+        }
+        .download-card {
+            background: #ffffff;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+            border: 1px solid #e2e8f0;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 15px;
+            object-fit: contain;
+        }
+        h2 {
+            margin: 0 0 10px 0;
+            font-size: 22px;
+            color: #0f172a;
+        }
+        p {
+            color: #64748b;
+            font-size: 14px;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+        .btn-download {
+            display: inline-block;
+            width: 100%;
+            padding: 14px;
+            background-color: #0284c7;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 10px;
+            transition: background 0.2s;
+        }
+        .btn-download:hover {
+            background-color: #0369a1;
+        }
+        .sub-text {
+            margin-top: 15px;
+            font-size: 12px;
+            color: #94a3b8;
+        }
+    </style>
+
+    <!-- ২ সেকেন্ড পর অটোমেটিক ডাউনলোড শুরু হওয়ার জন্য JavaScript -->
+    <script>
+        window.onload = function() {
+            setTimeout(function() {
+                // আপনার APK ফাইলের সঠিক নাম এখানে দিন
+                window.location.href = "ali-ahmad-n-m.apk"; 
+            }, 1000); // ১ সেকেন্ড পর অটো-ডাউনলোড শুরু হবে
+        };
+    </script>
+</head>
+<body>
+
+    <div class="download-card">
+        <img src="https://lh3.googleusercontent.com/d/1B-tFRZng9hiqmoHVOnioQ_EdWt1vJ6h9=w1000" alt="Logo" class="logo">
+        <h2>মাদ্রাসা ম্যানেজমেন্ট অ্যাপ</h2>
+        <p>আপনার ডাউনলোড স্বয়ংক্রিয়ভাবে শুরু হচ্ছে... যদি শুরু না হয় তবে নিচের বাটনে ক্লিক করুন।</p>
+        
+        <!-- আপনার APK ফাইলের সঠিক নাম href এ দিন -->
+        <a href="ali-ahmad-n-m.apk" class="btn-download" download>📱 সরাসরি অ্যাপ ডাউনলোড করুন</a>
+        
+        <div class="sub-text">ভার্সন ১.০.০ | নিরাপদ অ্যান্ড্রয়েড অ্যাপ</div>
+    </div>
+
+</body>
+</html>
